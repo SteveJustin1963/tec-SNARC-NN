@@ -38,7 +38,7 @@ To overcome this challenge, researchers have proposed modifications to the basic
 
 These modifications aim to find a balance between maintaining stable learned representations and adapting to new patterns and inputs.
 ## code
-`huff-1.c`
+`hebb-1.c`
 
 
 
