@@ -1,7 +1,7 @@
 
 
 "Marvin Minsky's SNARC, Possibly the First Artificial Self-Learning Machine
-1/1952
+1952
 
 ![image](https://github.com/SteveJustin1963/tec_NN-SNARC/assets/58069246/3a54d71d-01f3-4297-a941-c6657b89cd1c)
 
