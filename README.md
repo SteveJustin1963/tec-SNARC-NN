@@ -2,7 +2,8 @@
 
 "Marvin Minsky's SNARC, Possibly the First Artificial Self-Learning Machine
 1/1952
- ![image](https://github.com/SteveJustin1963/tec_NN-SNARC/assets/58069246/3a54d71d-01f3-4297-a941-c6657b89cd1c)
+
+![image](https://github.com/SteveJustin1963/tec_NN-SNARC/assets/58069246/3a54d71d-01f3-4297-a941-c6657b89cd1c)
 
 
 In January 1952 Marvin MinskyOffsite Link, a graduate student at Harvard University Psychological Laboratories implemented the SNARCOffsite Link (Stochastic Neural Analog Reinforcement Calculator). This randomly connected network of Hebb synapsesOffsite Link was the first connectionist neural network learning machine that when "rewarded" facilitated recently-used pathways. The SNARC, implemented using vacuum tubes, was possibly the first artificial self-learning machine.
