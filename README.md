@@ -37,7 +37,8 @@ However, Hebbian learning has some limitations. One challenge is its potential t
 To overcome this challenge, researchers have proposed modifications to the basic Hebbian learning rule. These modifications include introducing a decay factor to prevent excessive growth of connection strengths, setting activation thresholds to control learning, or implementing competition among neurons to select the most relevant connections.
 
 These modifications aim to find a balance between maintaining stable learned representations and adapting to new patterns and inputs.
-
+## code
+`huff-1.c`
 
 
 
