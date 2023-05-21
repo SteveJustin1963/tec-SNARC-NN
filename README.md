@@ -17,7 +17,7 @@ The main idea behind Hebbian learning is that the strength of connections betwee
 
 The mathematical formula for Hebbian learning can vary, but a common representation is:
 
-Δw = η * x_pre * x_post
+`Δw = η * x_pre * x_post`
 
 Here's what it means:
 
@@ -25,6 +25,8 @@ Here's what it means:
 - η is the learning rate, which determines how much the weight should change.
 - x_pre is the output of the neuron sending the signal, called the presynaptic neuron.
 - x_post is the output of the neuron receiving the signal, called the postsynaptic neuron.
+
+or The Hebbian rule is based on the rule that the weight vector increases proportionally to the input and learning signal i.e. the output. The weights are incremented by adding the product of the input and output to the old weight. `W (new) = w (old) +x*y`
 
 This rule suggests that if both the presynaptic and postsynaptic neurons are active at the same time, the weight between them increases. This means that the presynaptic neuron will have a stronger influence on the postsynaptic neuron's future activity.
 
