@@ -1,4 +1,15 @@
 ## Stochastic Neural Analog Reinforcement Calculator
+- "The Hebb learning rule assumes that – If two neighbor neurons activated and deactivated at the same time. Then the weight connecting these neurons should increase. For neurons operating in the opposite phase, the weight between them should decrease. If there is no signal correlation, the weight should not change."
+- "Hebbian theory asserts that “neurons that fire together, wire together,” meaning that when activity in one cell repeatedly elicits action potentials in a second cell, synaptic strength is potentiated"
+- " Hebbian learning can strengthen the neural response that is elicited by an input; this can be useful if the response made is appropriate to the situation, but it can also be counterproductive if a different response would be more appropriate.
+- What is the Hebbian formula? Based on the locality of Hebbian plasticity we can write down a rather general formula for the change of the synaptic efficacy, d d twij=F(wij;νi,νj).
+- What is Hebb learning more suited for? Hebb rule is more suited for bipolar data than binary data. If binary data is used ,above weight updation formula cannot distinguish two conditions namely: (1) A training pair in which which an input unit is ”off” and target value is “off”.
+- What is the difference between backpropagation and Hebbian learning? Backpropagation computes an error signal for the output neurons and spreads it over the hidden neurons. Contrastive Hebbian learning involves clamping the output neurons at desired values and letting the effect spread through feedback connections over the entire network.
+- What is the difference between Hebbian learning and competitive learning? In fact, the significant difference between competitive learning and Hebbian learning is in the number of active neurons at any one time. Whereas neural network based on Hebbian learning, several output neurons may be active simultaneously in competitive learning, only a single output neuron is active at any one time.
+- 
+
+
+
 
 The Stochastic Neural Analog Reinforcement Calculator (SNARC) described in the provided information is a machine designed by Marvin Minsky in the early days of artificial intelligence research. While the exact technical details and implementation of SNARC are not explicitly mentioned in the given information, some general characteristics of the machine are described.
 
