@@ -8,6 +8,16 @@ Based on this description, it can be inferred that SNARC incorporates analog cir
 
 It's important to note that the information provided is limited, and without further technical documentation or details, it's challenging to provide a comprehensive understanding of the specific technology and circuitry employed in SNARC.
 
+
+Certainly! The Hebbian learning rule is a simple learning algorithm that aims to strengthen the connection between two neurons when they are both activated simultaneously. Here's an example of a C program that demonstrates the Hebbian learning rule for a simple case of two input neurons and one output neuron:
+
+`hebb1`
+
+In this example, we have two input neurons represented by the `inputs` array. The `updateWeights` function updates the weight of the connection using the Hebbian learning rule, and the `computeOutput` function computes the output based on the current weights. The main function performs a few iterations of Hebbian learning, printing the output at each iteration.
+
+Note that this is a basic implementation of the Hebbian learning rule and does not consider biases or multiple training samples. It is meant to demonstrate the concept in a simplified manner.
+
+
 ## code1
 This updated C code now implements a basic form of a supervised learning neural network, specifically a feed-forward artificial neural network (ANN) with a single hidden layer. The network consists of 8 input neurons, 4 hidden neurons, and 1 output neuron. 
 
