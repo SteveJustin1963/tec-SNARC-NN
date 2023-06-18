@@ -1,6 +1,12 @@
 ## Stochastic Neural Analog Reinforcement Calculator
 
+The Stochastic Neural Analog Reinforcement Calculator (SNARC) described in the provided information is a machine designed by Marvin Minsky in the early days of artificial intelligence research. While the exact technical details and implementation of SNARC are not explicitly mentioned in the given information, some general characteristics of the machine are described.
 
+SNARC is described as a randomly connected network of approximately 40 Hebb synapses. Each synapse has a memory that holds the probability of a signal coming in one input and another signal coming out of the output. The machine has a probability knob that adjusts the likelihood of signal propagation. When the probability signal passes through, a capacitor stores this information and engages a clutch. A large motor connected to a chain then checks the engagement of the clutch across all 40 synapse machines. The chain captures the most recent updates of the probabilities, as the capacitor can only retain information for a certain amount of time.
+
+Based on this description, it can be inferred that SNARC incorporates analog circuitry to handle the signal propagation, storage, and engagement processes. The machine likely employs electronic components such as capacitors, motor mechanisms, and chains for its operation.
+
+It's important to note that the information provided is limited, and without further technical documentation or details, it's challenging to provide a comprehensive understanding of the specific technology and circuitry employed in SNARC.
 
 ## code1
 This updated C code now implements a basic form of a supervised learning neural network, specifically a feed-forward artificial neural network (ANN) with a single hidden layer. The network consists of 8 input neurons, 4 hidden neurons, and 1 output neuron. 
