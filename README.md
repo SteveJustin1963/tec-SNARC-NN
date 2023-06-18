@@ -17,6 +17,21 @@ In this example, we have two input neurons represented by the `inputs` array. Th
 
 Note that this is a basic implementation of the Hebbian learning rule and does not consider biases or multiple training samples. It is meant to demonstrate the concept in a simplified manner.
 
+## analog
+In the provided C code example, we simulate the Hebbian learning rule using a digital representation, where inputs and weights are represented as floating-point numbers and computations are performed using discrete operations.
+
+However, to explain the Hebbian learning rule from an analog point of view, we can consider an analog circuit implementation. In an analog circuit, the inputs and weights are represented as continuous electrical signals, and computations are performed using analog components.
+
+In the analog implementation, the inputs would be represented by voltage or current signals, and the weights would be realized as adjustable resistors or capacitors. The weighted sum of the inputs would be computed using operational amplifiers (op-amps) configured as summing amplifiers. The output would be generated as an analog voltage or current signal that represents the result of the computation.
+
+To update the weights, analog circuits such as voltage-controlled resistors or voltage-controlled capacitors can be used. The learning rate would be controlled by adjustable biasing elements, such as potentiometers or voltage dividers.
+
+In this analog implementation, the continuous and gradual changes in voltage or current signals would represent the learning process, where the circuit's behavior evolves over time. The Hebbian learning rule would be realized through the adjustment of the weights based on the simultaneous activation of the input signals.
+
+It's important to note that implementing the Hebbian learning rule in analog circuits requires careful consideration of noise, stability, and calibration. Analog circuits are subject to various sources of noise and drift, which can impact the accuracy and reliability of the learning process. Calibration procedures and circuit design techniques are necessary to mitigate these effects.
+
+Overall, an analog implementation of the Hebbian learning rule leverages the continuous nature of electrical signals to emulate the gradual learning process observed in biological systems.
+
 
 ## code1
 This updated C code now implements a basic form of a supervised learning neural network, specifically a feed-forward artificial neural network (ANN) with a single hidden layer. The network consists of 8 input neurons, 4 hidden neurons, and 1 output neuron. 
