@@ -2,8 +2,7 @@
 
 
 
-## code
-`hebb-1.c`
+## code1
 
 
 ## code2
