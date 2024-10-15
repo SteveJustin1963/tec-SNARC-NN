@@ -1,0 +1,28 @@
+40 n !               
+100 /F * lr !        
+100 i !              
+
+:S " * #2710 / ;     
+:R #FFFF /K & ;      
+
+n n * m !            
+[ ] w !              
+m (0 w /A)           
+
+[ ] x ! [ ] y !      
+n (0 x /A 0 y /A)    
+
+:U                   
+  m (
+    R x /i n % ? S   
+    R y /i n / ? S   
+    * lr S           
+    w /i ? +         
+    w /i !           
+  )
+;
+
+i (
+  n (R x /i ! R y /i !)  
+  U                      
+  `Iterat
