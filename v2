@@ -1,0 +1,37 @@
+40 n !               // Number of neurons
+100 /F * lr !        // Learning rate 0.01 (scaled by 10000)
+100 i !              // Number of iterations
+
+:S " * #2710 / ;     // Scale and divide by 10000
+:R #FFFF /K & ;      // Simple random number generator
+
+n n * m !            // Total number of weights
+[ ] w !              // Weights array
+m (0 w /A)           // Initialize all weights to 0
+
+[ ] x ! [ ] y !      // Input and output arrays
+n (0 x /A 0 y /A)    // Initialize arrays with zeros
+
+:U                   // Update weights
+  m (
+    R x /i n % ? S   // Random * input scaled
+    R y /i n / ? S   // Random * output scaled
+    * lr S           // Apply learning rate
+    w /i ? +         // Update existing weight
+    w /i !           // Store new weight
+  )
+;
+
+i (
+  n (
+    R x /i !         // Random input value
+    R y /i !         // Random output value
+  )
+  U                  // Update weights
+  `Iteration ` /i 1 + . /N  // Print iteration number
+)
+
+`Final weights:` /N
+m (
+  /i . `: ` w /i ? . /N  // Print index and corresponding weight
+)
